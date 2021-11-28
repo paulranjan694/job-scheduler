@@ -40,9 +40,11 @@ removeServer.addEventListener("click", function () {
   document.querySelector(
     ".text"
   ).textContent = `Server to be removed : ${serverToBeRemoved}`;
-  if(removeServerFromUi()){
+  if (removeServerFromUi()) {
     --serverToBeRemoved;
-    document.querySelector('.text').textContent = `Server to be removed : ${serverToBeRemoved}`;
+    document.querySelector(
+      ".text"
+    ).textContent = `Server to be removed : ${serverToBeRemoved}`;
   }
 });
 
@@ -52,9 +54,10 @@ addTask.addEventListener("click", function () {
     return;
   }
   let task = taskInput.value;
-    if(task.length === 0 || task === '0'){
-        return;
-    }
+  if (task.length === 0 || task === "0") {
+    alert("Please enter the number of tasks!!");
+    return;
+  }
   for (let i = 0; i < parseInt(task); i++) {
     const taskId = Date.now() + i;
     taskQueue.push(taskId);

@@ -30,8 +30,8 @@
 }
 
 .text {
-    margin: 20px 0;
-  }
+  margin: 20px 0;
+}
 
 .btn-group > button,
 .controls__tasks > button {
@@ -43,7 +43,7 @@
   cursor: pointer;
 }
 
-#remove_server{
+#remove_server {
   background-color: white;
   border: 1px solid #9c27b0;
   color: #9c27b0;
@@ -58,51 +58,51 @@
   margin-right: 10px;
 }
 
-.controls__tasks > input:focus{
-    outline: none;
+.controls__tasks > input:focus {
+  outline: none;
 }
 
 .server {
-    border: 1px solid black;
-    width: 100%;
-    height: 80px;
-    border-radius: 7px;
-    margin-bottom: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 80px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.server-task{
+.server-task {
   width: 85% !important;
   margin-bottom: 0 !important;
 }
 
-.task-group{
+.task-group {
   display: flex;
   justify-content: space-between;
 }
 
 .task {
-    border: 4px solid #9c27b0;
-    width: 100%;
-    height: 40px;
-    border-radius: 7px;
-    margin-bottom: 20px;
+  border: 4px solid #9c27b0;
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  margin-bottom: 20px;
 }
 
-.task__inner{
-    height: 32px;
-    display: flex;
-    align-items: center;
-    color: #7e7575;
+.task__inner {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  color: #7e7575;
 }
 
-.task__inner > p{
+.task__inner > p {
   margin-left: 5px;
 }
 
-.task-delete-btn{
+.task-delete-btn {
   margin-left: 20px;
   margin-top: 4px;
   height: 32px;
@@ -115,21 +115,21 @@
   cursor: pointer;
 }
 
-.task-delete-btn > i{
+.task-delete-btn > i {
   color: #9c27b0;
 }
 
-.task-animation{
-    animation: taskFiller 20s linear;
+.task-animation {
+  animation: taskFiller 20s linear;
 }
 
 @keyframes taskFiller {
-    0%{
-        width: 0%;
-        background-color: #9c27b0;
-    }
-    100%{
-        width: 100%;
-        background-color: #9c27b0;
-    }
+  0% {
+    width: 0%;
+    background-color: #9c27b0;
+  }
+  100% {
+    width: 100%;
+    background-color: #9c27b0;
+  }
 }
