@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Scheduler</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="servers__container" id="servers">
+        </div>
+        <div class="tasks__container" id="tasks">
+        </div>
+        <div class="controls__container" id="controls">
+            <div class="btn-group">
+                <button id="add_server">Add Server</button>
+                <button id="remove_server">Remove Server</button>
+            </div>
+            <div class="text">Server to be removed : 0</div>
+            <div class="controls__tasks">
+                <input type="number" id="task__input">
+                <button id="add_task">Add Task</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html
